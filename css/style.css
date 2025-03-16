@@ -1,0 +1,697 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+}
+
+/* Navbar */
+
+.company-name {
+    color: black;
+}
+
+.nav-link {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.login-btn button {
+    border: none;
+    outline: none;
+    background: transparent;
+    font-weight: 500;
+}
+
+.login-btn i {
+    color: orangered;
+    padding-right: 5px;
+}
+
+.navbar-toggler-icon {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+/* Join Careers */
+
+.careers-join {
+    background: url(Team\ cartoom\ img.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    background-position: 50% 50%;
+}
+
+.careers-join h3 {
+    font-weight: 300;
+}
+
+.careers-join h1 {
+    font-weight: bold;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px black;
+}
+
+.join-btn {
+    width: 120px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: orangered;
+    color: white;
+    font-weight: 500;
+    border-radius: 20px;
+}
+
+/* Benefits */
+
+.benefits {
+    margin: 20px;
+}
+
+.benefits h5 {
+    color: orangered;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.benefits h4 {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.text-box {
+    padding: 10px 50px 10px 0;
+}
+
+.text-box h5 {
+    color: black;
+    font-weight: bold;
+}
+
+.text-box h5 i {
+    color: green;
+    text-shadow: 1px 1px 2px black;
+    font-weight: bold;
+}
+
+/* Growth */
+
+.line {
+    width: 100px;
+    height: 2px;
+    background-color: orangered;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.growth-text {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.growth h4 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(92, 90, 85);
+    line-height: 1.6;
+}
+
+/* our product */
+
+.our-product {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 85%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gr-box {
+    background-color: rgb(227, 240, 250);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.youtube-box {
+    background-color: white;
+}
+
+.courses-box {
+    background-color: rgb(227, 240, 250);
+}
+
+.linkedin-box {
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.gr-box img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.youtube-box img {
+    width: 150px;
+    height: 100px;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.courses-box img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linkedin-box img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.our-product h6 {
+    line-height: 1.6;
+}
+
+.view-btn {
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: rgb(16, 210, 16);
+    color: white;
+    font-weight: 500;
+    border-radius: 8px;
+    display: block;
+    margin: 40px auto;
+}
+
+/* Life at GRnetwork */
+
+.life-at-GR {
+    background-color: rgb(243, 239, 234);
+}
+
+.life-text-boxs {
+    row-gap: 40px;
+    column-gap: 40px;
+}
+
+.life-text-box {
+    background-color: transparent;
+    padding: 25px;
+    border-radius: 20px;
+    border: 2px solid orange;
+}
+
+.life-text-box i {
+    color: orange;
+    font-size: 40px;
+    text-shadow: 1px 1px 2px gray;
+    padding-left: 20px;
+}
+
+
+.life-text-box h3 {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.life-text-box p {
+    padding-top: 10px;
+    text-align: center;
+}
+
+.life-title-box {
+    float: right;
+}
+
+.life-title-box h2 {
+    width: auto;
+    letter-spacing: 1px;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-shadow: 2px 2px 4px gainsboro;
+}
+
+
+.life-title-box h2 span {
+    color: orange;
+    text-shadow: 1px 1px 2px gainsboro;
+}
+
+.life-title-box p {
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: justify;
+}
+
+.life-title-box button {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    width: 150px;
+    height: 35px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-shadow: 1px 1px 2px black;
+}
+
+/* Learner count */
+
+.title h3 {
+    font-size: 25px;
+    color: orangered;
+}
+
+.counter {
+    text-align: center;
+    border: 2px solid orangered;
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 30px 0 0 0;
+}
+
+.counter i {
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+    color: orangered;
+}
+
+.counter h3 {
+    padding-top: 20px;
+    font-size: 25px;
+    color: black;
+    text-shadow: 1px 1px 2px black;
+    letter-spacing: 1px;
+}
+
+.counter h5 {
+    color: orangered;
+    padding-top: 10px;
+}
+
+/* Subscribe */
+
+.subscribe {
+    background-color: rgb(251, 226, 181);
+}
+
+.subscribe h4 {
+    line-height: 1.5;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.con-btn {
+    width: 300px;
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid orange;
+    color: orange;
+    border-radius: 5px;
+}
+
+.sub-btn {
+    width: 300px;
+    height: 40px;
+    background-color: orange;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Email sent  */
+
+.company-details {
+    background-color: rgb(186, 220, 250);
+}
+
+.company-details h3 {
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+    text-shadow: 1px 1px 2px black;
+    letter-spacing: 1px;
+}
+
+.company-details p {
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.email-box {
+    background-color: white;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.email-box input {
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    text-shadow: 0.5px 0.5px 1px black;
+    margin-left: 20px;
+    width: 350px;
+}
+
+.email-box input::placeholder {
+    padding-left: 20px;
+    text-shadow: none;
+}
+
+.email-box button {
+    border: none;
+    width: 100px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.email-box button:hover {
+    background-color: rgb(255, 106, 0);
+}
+
+.company-text h4 {
+    color: black;
+    letter-spacing: 1px;
+}
+
+.company-text h4::first-letter {
+    font-size: 30px;
+}
+
+.company-text h5 {
+    font-weight: 500;
+}
+
+.details {
+    column-gap: 40px;
+}
+
+.details-box h4 {
+    color: black;
+}
+
+/* Social icon */
+
+.social-icons h5 {
+    color: orange;
+}
+
+.social-icon i {
+    font-size: 25px;
+    cursor: pointer;
+    color: orange;
+    text-shadow: 1px 1px 2px black;
+}
+
+.social-icon i:hover {
+    color: tomato;
+}
+
+
+/*     ================================     Sign page    ===================================       */
+
+.company-brand{
+    background: url(brand-bg.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-position: 50% 50%;
+}
+    
+.company-brand img{
+    margin-top: 200px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.company-brand h1{
+    color: orangered;
+    text-shadow: 2px 2px 4px black;
+    font-size: 50px;
+}
+
+.form-control{
+    height: 50px;
+    outline:none;
+}
+
+.check-frogot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-center a{
+    color: black;
+}
+
+.sign-btn button{
+    display: block;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    border-radius: 10px;
+}
+
+.sign-google-facebook button{
+    border: 1px solid black;
+    height: 40px;
+}
+
+.sign-google-facebook button a{
+    color: black;
+    text-decoration: none;
+}
+
+/*     ================================     Register page    ===================================       */
+
+
+.register-form input::placeholder{
+    color: rgb(211, 194, 194);
+}
+
+
+/*     ================================     Blog page    ===================================       */
+
+.edu-text{
+    background-image: url(../image/edu-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.edu-text h3{
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.edu-text button{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 0, 157);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.edu-icons{
+    background-color: antiquewhite;
+}
+
+.icon i{
+    font-size: 30px;
+    padding-left: 30px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.icon p{
+    font-weight: bold;
+}
+
+/* Recent Blog */
+
+
+.blog-option h6 a{
+    color: black;
+}
+
+.recent-blog{
+    row-gap: 20px;
+}
+
+/* View courses */
+
+.view-courses h1 {
+    line-height: 1.5;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.watch-tutorials-btn {
+    width: 300px;
+    height: 60px;
+    background-color: transparent;
+    border: 2px solid teal;
+    color: teal;
+    border-radius: 5px;
+}
+
+.view-courses-btn{
+    width: 300px;
+    height: 60px;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+/* =================================== Careers page =========================================== */
+
+/* Apply opening */
+
+.apply-opening{
+    background: url("careers bg.jpg") no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    background-position: 50% 50%;
+}
+
+.apply-opening h3{
+    font-weight: 300;
+}
+
+.apply-opening h1 {
+    font-weight: bold;
+    color: aliceblue;
+    text-shadow: 1px 1px 2px black;
+}
+
+.apply-btn {
+    width: 300px;
+    height: 60px;
+    border: none;
+    outline: none;
+    background-color: orangered;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px black;
+}
+
+/* Recruitment process */
+
+.recruitment-box i{
+    color: orange;
+    font-size: 35px;
+}
+
+/* Current opening */
+
+.opening-list{
+    cursor: pointer;
+    background-color: rgb(207, 227, 244);
+    box-shadow: 0.5px 0.5px 1px black;
+}
+
+.opening-list h5{
+    text-shadow: 1px 1px 2px black;
+}
+
+/* Join our community */
+
+.join-community-box{
+    background-color: rgb(157, 204, 245);
+}
+
+.join-community-text{
+    background-color: #fff;
+}
+
+.join-community-btn{
+    width: 150px;
+    height: 40px;
+    color: #ffffff;
+    background-color: teal;
+    border: none;
+    border-radius: 5px;
+}
+
+/* ================================ Contact page ===========================================*/
+
+.select-service-box{
+    display: grid;
+    place-content: center;
+}
+
+.sumbit-btn{
+    width: 150px;
+    height: 40px;
+    color: #ffffff;
+    background-color: teal;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-submit{
+    width: 150px;
+    height: 40px;
+    color: #ffffff;
+    background-color: rgb(31, 147, 248);
+    border: none;
+    border-radius: 5px;
+}
+
+.form-check{
+    border: 1px solid gray;
+}
+
+legend{
+    font-weight: bold;
+}
